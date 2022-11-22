@@ -12,6 +12,8 @@
 Here is the api code for login and registration. 
 
 - Donwload the code using ZIP file or GitHub Command.
+- Rename the file .env.example to .env
+- Add database name inside .env file
 - Install Composer [composer install].
 - Run migration [php artisan migrate].
 - You can install the package via composer: [php artisan passport:install].
