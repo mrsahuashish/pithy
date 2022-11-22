@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "db469bcb-738e-499e-9f55-f817a8544128",
+		"name": "pithy api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11354315"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Ashish\",\r\n    \"email\":\"ashishsahu.n@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				},
+				"description": "This is for registration api"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ashishsahu.n@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "This is for login api"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/get-user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjQ5YTA3ZWI2N2Q3NjQ3NTcxZDc2MjRlMDIzNmJjODU2ZTgyNGFkYjk4YWUyNTY1YTUwMTNkNjlhMmZmMTcwMjA4NGE0NmY1MGQ1ZDA1ZTUiLCJpYXQiOjE2NjkxMjg5NTQuMDUwMzA5LCJuYmYiOjE2NjkxMjg5NTQuMDUwMzMyLCJleHAiOjE3MDA2NjQ5NTMuOTY0Nzk5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.vpdrFfIwcDs-G9GuS7Qj2KXx_xXx7siaLpNjUbpFLnycBQlywpfSDQqLUDUdTkTlBypgZ8XjD5RBqBHIDsJh70hLKKUixDSVRHtRmBLr8TrxeZxDGRIpQB_oU2NpdD-HdvMVNHzY3qr6Dvz_9zcR0ddHxzrmZxQtJptjb3dkS06AOGE8GbtjezVZ_SxU6GBxPLgrfosZGtFyZoZ3xzaBx-aKs9-k6tV9w0BSISdgZzeIuerN_Iq0w8ZufGGFpnXSDhFMozLQlhnc5B2tKfRzp536KgXpoe9hDb-n0pEko-ioR_CBv2VB3FEbQaOtGF2ZafvjpNfSl3l8a_Sb-Tj5afJykjCOQ4J5PRQ4ikhlkWK0fb1xQSgJoPPGtjJBE0RXSH22pEDpy9KNjBhfWwbVR1QwOgv8FHc-UDrdkUkNiLQM4IbCnXlHaGLIwqXOlb7c5ZOQaY73Cm3j295PkyKYj1VKz5uWHSe8xXR-fXANwWNTZX-jKJd635jrOQv5kdlu2fLy5aiISiLRasHqM1kC2z9Qw29vftRm-1kRl55FN4BJdlzSSBl9X6KE-fNJMGsghsFHwHxpZe89NjavdzDKCyfVmGCxJiEGsI9qzx1K61pm5pAImUJq0H6sBzCp73S2NCQVSBWgidaT1bPKgjpDNM1VsKsVnXfMruVUSavSQl0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/get-user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"get-user"
+					]
+				},
+				"description": "This is for get user personal information"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ashishsahu1.n@gmail.com\",\r\n    \"provider_name\":\"google\",\r\n    \"provider_id\":\"232323\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "Login with Google"
+			},
+			"response": []
+		}
+	]
+}
