@@ -15,6 +15,9 @@ Here is the api code for login and registration.
 - Install Composer [composer install].
 - Run migration [php artisan migrate].
 - You can install the package via composer: [php artisan passport:install].
+- I have also attached the postman API JSON file, you can download pithy api.postman_collection.json file and import JSON file into your postman
+- API Json File name : pithy api.postman_collection.json
+
 
 ## API
 
