@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Installation Process
 
 Here is the api code for login and registration. 
 
@@ -16,7 +16,8 @@ Here is the api code for login and registration.
 - Run migration [php artisan migrate].
 - You can install the package via composer: [php artisan passport:install].
 
-## License
+## API
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# pithy" 
+- http://127.0.0.1:8000/api/register
+- http://127.0.0.1:8000/api/login
+- http://127.0.0.1:8000/api/get-user
